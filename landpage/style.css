@@ -1,0 +1,136 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.land{
+    background-image: url(https://source.unsplash.com/random/600×400?developer);
+    height: 90%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.land{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.land .text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 50rem;
+    padding: 1rem;
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+.work{
+    height: 20rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+}
+.work div span{
+    font-weight:bolder; 
+    font-size: 4rem;
+}
+.work div{
+    letter-spacing: 1.5rem;
+    width: fit-content;
+    height: fit-content;
+}
+.do{
+    height: 41rem;
+    width: 100%;
+    padding: 4rem 25rem;
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+}
+.do .card{
+    height:33rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: white;
+    border-radius: 1rem;
+    gap: 1.5rem;
+    box-shadow: .5rem .5rem 1rem 0rem rgba(0, 0, 0, 0.417);
+    transition: all .5s ease 0s;
+}
+.do .card:hover{
+    transform: scale(1.05);
+}
+.do .card img{
+    height: 17rem;
+    width: 25rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: all .5s ease 0s;
+}
+.do img:hover{
+    transform: scale(1.05);
+}
+.do .card .cont{
+    display: flex;
+    flex-direction: column;
+    padding: .1rem 2rem;
+    font-size: 1.3rem;
+}
+.cont h1{
+    height: 5rem;
+    font-size: 2rem;
+    font-weight:bolder;
+}
+.commu{
+    height: fit-content;
+    width: 100%;
+    color: white;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.commu .mail,.num{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    font-size: 2rem;
+    gap: 2rem;
+    background-color: brown;
+}
+.commu .num{
+    background-color: green;
+}
+.do,.commu{
+    background-image: url(https://source.unsplash.com/random/600×400?projects);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    height: 7rem;
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color:black;
+}

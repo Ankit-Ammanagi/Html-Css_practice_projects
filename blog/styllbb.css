@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80vw;
+}
+
+.mainhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.headpara {
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+}
+
+.maincon {
+    justify-content: center;
+    width: 80vw;
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,400px));
+    gap: .8rem;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0rem 0rem 1rem 0px rgb(214, 213, 213);
+}
+
+.image {
+    height: 15rem;
+    width: 100%;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.content {
+    padding: 1rem 1.2rem;
+}
+
+.subhead {
+    text-decoration: none;
+    color: black;
+}
+
+.subpara {
+    color: gray;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0.1rem 0rem; */
+}
+
+.authour {
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 1.3rem;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(209, 208, 208);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10rem;
+
+}
+
+.autname {
+    color: blue;
+    font-size: 1rem;
+}
+
+.date {
+    color: rgb(106, 104, 104);
+}
+
+.button {
+    color: gray;
+    border: 1px solid gray;
+    padding: .1rem 0.5rem;
+    border-radius: .3rem;
+    font-size: 1.1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    transition-timing-function: ease;
+}
+
+.card:hover .image {
+    transform: scale(1.05);
+}
